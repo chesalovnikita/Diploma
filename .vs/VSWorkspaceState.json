@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DiplomaClient\\bin",
+    "\\DiplomaClient\\bin\\x64",
+    "\\DiplomaClient\\deps\\ffmpeg",
+    "\\DiplomaClient\\deps\\ffmpeg\\x64",
+    "\\DiplomaClient\\deps\\ffmpeg\\x64\\ffmpeg-20200429-280383a-win64-dev",
+    "\\DiplomaClient\\deps\\ffmpeg\\x64\\ffmpeg-20200429-280383a-win64-dev\\ffmpeg-20200429-280383a-win64-dev",
+    "\\DiplomaClient\\src"
+  ],
+  "SelectedNode": "\\DiplomaClient",
+  "PreviewInSolutionExplorer": false
+}
