@@ -73,8 +73,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>C:\Dev\VSProjects\Diploma\DiplomaClient\bin\x64\Debug\</OutDir>
-    <IntDir>C:\Dev\VSProjects\Diploma\DiplomaClient\obj\x64\Debug\</IntDir>
+    <OutDir>$(ProjectDir)\bin\x64\Debug\</OutDir>
+    <IntDir>$(ProjectDir)\obj\x64\Debug\</IntDir>
     <SourcePath>$(VC_SourcePath);</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -91,11 +91,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Dev\VSProjects\Diploma\DiplomaClient\deps\ffmpeg\x64\ffmpeg-20200429-280383a-win64-dev\ffmpeg-20200429-280383a-win64-dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\deps\ffmpeg\x64\ffmpeg-20200429-280383a-win64-dev\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <OutputFile>C:\Dev\VSProjects\Diploma\DiplomaClient\bin\x64\Debug\DiplomaClient.exe</OutputFile>
-      <AdditionalLibraryDirectories>C:\Dev\VSProjects\Diploma\DiplomaClient\deps\ffmpeg\x64\ffmpeg-20200429-280383a-win64-dev\ffmpeg-20200429-280383a-win64-dev\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(ProjectDir)\bin\x64\Debug\DiplomaClient.exe</OutputFile>
+      <AdditionalLibraryDirectories>$(ProjectDir)\deps\ffmpeg\x64\ffmpeg-20200429-280383a-win64-dev\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>avcodec.lib;avformat.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
